@@ -8,6 +8,14 @@ footer,footer .brand{direction:ltr}
 footer>p,footer>a:not(.brand),.footer-bottom{direction:rtl}
 .sync-art .sync-logo{width:112px;height:112px;aspect-ratio:1;flex-shrink:0;padding:13px;border-radius:50%;overflow:hidden;box-sizing:border-box;place-items:center}
 .sync-art .sync-logo img{display:block;width:86px;height:86px;max-width:100%;max-height:100%;aspect-ratio:1;object-fit:contain;mix-blend-mode:normal}
+.sync-art .broker{display:flex;align-items:center;justify-content:center;gap:7px;width:148px;min-height:58px;padding:13px 14px;box-sizing:border-box}
+.sync-art .broker svg{display:block;max-width:100%;object-fit:contain;flex-shrink:0}
+.sync-art .binance{right:12%;color:#181a20;font-family:Arial,sans-serif;font-size:13px;font-weight:700;letter-spacing:.2px}
+.sync-art .alpaca svg{width:100px;height:auto}
+.sync-art .ibkr{right:12%}
+.sync-art .ibkr svg{width:118px;height:auto}
+@media(max-width:760px){.sync-art .broker{width:132px;min-height:54px;padding:12px}.sync-art .binance{right:8%}.sync-art .ibkr{right:8%}.sync-art .ibkr svg{width:106px}.sync-art .alpaca{left:3%}}
+@media(max-width:420px){.sync-art .broker{width:116px;min-height:50px;padding:10px;gap:5px}.sync-art .binance{font-size:11px;right:5%}.sync-art .binance svg{width:23px;height:23px}.sync-art .alpaca svg{width:88px}.sync-art .ibkr svg{width:94px}.sync-art .ibkr{right:calc(50% - 58px);bottom:35px}.sync-art .alpaca{left:5%;top:19px}}
 .hero .hero-visual{height:620px;min-height:0;max-height:none;border-radius:5px 5px 70px 5px;align-self:center;background:#e2dbca}
 .hero .lifestyle{object-position:center;object-fit:cover}
 .wealth-summary{margin:0 6% 55px;padding:34px 4%;display:grid;grid-template-columns:1.05fr 1fr;gap:8%;align-items:center;background:#f1f3eb;border:1px solid var(--line);border-radius:6px}
