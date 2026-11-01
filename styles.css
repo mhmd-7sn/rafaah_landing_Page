@@ -4,6 +4,8 @@
 .header{direction:ltr}
 .header .brand{direction:ltr}
 .header nav,.header>.button{direction:rtl}
+footer,footer .brand{direction:ltr}
+footer>p,footer>a:not(.brand),.footer-bottom{direction:rtl}
 .hero .hero-visual{height:620px;min-height:0;max-height:none;border-radius:5px 5px 70px 5px;align-self:center;background:#e2dbca}
 .hero .lifestyle{object-position:center;object-fit:cover}
 .wealth-summary{margin:0 6% 55px;padding:34px 4%;display:grid;grid-template-columns:1.05fr 1fr;gap:8%;align-items:center;background:#f1f3eb;border:1px solid var(--line);border-radius:6px}
