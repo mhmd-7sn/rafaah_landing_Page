@@ -4,3 +4,14 @@
 .header{direction:ltr}
 .header .brand{direction:ltr}
 .header nav,.header>.button{direction:rtl}
+.hero .hero-visual{height:620px;min-height:0;max-height:none;border-radius:5px 5px 70px 5px;align-self:center;background:#e2dbca}
+.hero .lifestyle{object-position:center;object-fit:cover}
+.wealth-summary{margin:0 6% 55px;padding:34px 4%;display:grid;grid-template-columns:1.05fr 1fr;gap:8%;align-items:center;background:#f1f3eb;border:1px solid var(--line);border-radius:6px}
+.summary-copy .eyebrow{margin-bottom:9px}
+.summary-copy h2{font-size:29px;line-height:1.75;letter-spacing:-.6px}
+.summary-copy>p:not(.eyebrow){font-size:12px;color:var(--muted);margin:12px 0}
+.wealth-summary .floating-card{position:relative;inset:auto;width:100%;min-width:0;background:var(--ivory);backdrop-filter:none;box-shadow:0 8px 25px #003d2707;border:1px solid #dde3d6;padding:22px 25px 15px}
+.wealth-summary .float-number{font-size:43px;margin:13px 0}
+.wealth-summary .floating-card svg{height:74px;margin-top:20px}
+@media(max-width:1050px) and (min-width:761px){.hero .hero-visual{height:560px}.summary-copy h2{font-size:25px}}
+@media(max-width:760px){.hero .hero-visual{height:auto;aspect-ratio:4/5;min-height:0;max-height:none;border-radius:5px 5px 50px 5px}.wealth-summary{grid-template-columns:minmax(0,1fr);gap:24px;margin:0 5% 35px;padding:25px 22px}.summary-copy h2{font-size:25px}.wealth-summary .floating-card{padding:20px}.wealth-summary .float-number{font-size:38px}.wealth-summary .floating-card svg{height:65px}}
