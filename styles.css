@@ -27,3 +27,29 @@ footer>p,footer>a:not(.brand),.footer-bottom{direction:rtl}
 .wealth-summary .floating-card svg{height:74px;margin-top:20px}
 @media(max-width:1050px) and (min-width:761px){.hero .hero-visual{height:560px}.summary-copy h2{font-size:25px}}
 @media(max-width:760px){.hero .hero-visual{height:auto;aspect-ratio:4/5;min-height:0;max-height:none;border-radius:5px 5px 50px 5px}.wealth-summary{grid-template-columns:minmax(0,1fr);gap:24px;margin:0 5% 35px;padding:25px 22px}.summary-copy h2{font-size:25px}.wealth-summary .floating-card{padding:20px}.wealth-summary .float-number{font-size:38px}.wealth-summary .floating-card svg{height:65px}}
+
+/* RAFAAH AI legal and support pages */
+.footer-links{display:flex;flex-wrap:wrap;align-items:center;gap:10px 24px;font-size:12px}
+.footer-links a:hover,.legal-content a:hover{color:#a47a29;text-decoration:underline}
+.legal-main{max-width:1100px;margin:0 auto;padding:65px 5% 95px;min-height:62vh}
+.legal-intro{border-bottom:1px solid var(--line);padding-bottom:25px;margin-bottom:35px}
+.legal-intro h1{font-size:clamp(32px,4vw,52px);line-height:1.4;margin:0 0 10px;color:var(--emerald);letter-spacing:-1px}
+.legal-date,.legal-hint{font-size:12px;color:var(--muted)}
+.legal-content{max-width:980px;color:var(--ink)}
+.legal-lead{font-size:17px;line-height:2.05;background:#eff3ea;border-right:3px solid var(--gold);padding:22px 25px;border-radius:5px}
+.legal-content h2{font-size:21px;line-height:1.55;margin:40px 0 10px;color:var(--emerald);letter-spacing:0}
+.legal-content p{font-size:14px;line-height:2.1;margin:10px 0 18px}
+.legal-content a:not(.text-link){text-decoration:underline;text-underline-offset:4px}
+.legal-english{border-top:1px solid var(--line);margin-top:55px;padding-top:18px;font-family:Arial,sans-serif}
+.legal-english h2{font-size:21px}.legal-english p{line-height:1.85}
+.support-grid{display:grid;grid-template-columns:minmax(0,1.6fr) minmax(250px,.8fr);gap:45px;align-items:start}
+.support-grid h2{margin-top:0}
+.support-panel{background:white;border:1px solid var(--line);padding:28px;border-radius:8px}
+.support-aside{background:#eff3ea;padding:25px;border-radius:8px}
+#support-form{display:flex;flex-direction:column;gap:9px}
+#support-form label{font-weight:600;font-size:13px;margin-top:10px}
+#support-form input,#support-form select,#support-form textarea{width:100%;padding:12px 14px;border:1px solid #cbd5ca;border-radius:5px;background:white;color:var(--ink);font:inherit;font-size:14px}
+#support-form textarea{resize:vertical}
+#support-form input:focus-visible,#support-form select:focus-visible,#support-form textarea:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+#support-form .button{justify-content:center;margin-top:15px}
+@media(max-width:760px){.legal-main{padding:35px 5% 65px}.legal-lead{font-size:14px;padding:17px}.legal-content p{font-size:13px}.support-grid{grid-template-columns:1fr;gap:22px}.support-panel{padding:18px}.footer-links{width:100%;justify-content:center;gap:8px 18px}.legal-page .header nav{display:none}}
